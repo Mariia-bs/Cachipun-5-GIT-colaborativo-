@@ -16,3 +16,15 @@ if persona == 1:
         print("Perdiste, el papel cubre la piedra")
     elif compu == 5:
         print("Perdiste, spock vaporiza la piedra")
+
+elif persona == 2:
+    if compu == 2:
+        print("Empate, ambos eligieron papel")
+    elif compu == 1:
+        print("Ganaste, el papel cubre la piedra")
+    elif compu == 5:
+        print("Ganaste, el papel refuta a spock")
+    elif compu == 3:
+        print("Perdiste, la tijera corta el papel")
+    elif compu == 4:
+        print("Perdiste, la lagartija se come el papel")
