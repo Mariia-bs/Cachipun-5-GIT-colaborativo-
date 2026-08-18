@@ -1,0 +1,7 @@
+print("Hola, mi nombre es Compu, y te quiero dar la bienvenida al juego 'Cachipun 5'. Es un juego muy entretenido, más entretenido que el cachipún normal obviamente. Me imagino que ya conoces las reglas, así que partirás tú eligiendo qué vas a sacar entre las 5 opciones disponibles.")
+print("Elige tu jugada: 1=piedra, 2=papel, 3=tijera, 4=lagartija, 5=spock")
+persona = int(input())
+compu = random.randint(1,5)
+print(f"Yo elegí {compu}")
+# 1= piedra, 2=papel, 3=tijera, 4=lagartija, 5=spock
+# cada opción le gana a 2 y pierde contra 2
