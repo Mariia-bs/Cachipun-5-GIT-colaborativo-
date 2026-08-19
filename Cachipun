@@ -30,4 +30,17 @@ elif persona == 2:
         print("Perdiste, la tijera corta el papel")
     elif compu == 4:
         print("Perdiste, la lagartija se come el papel")
-    
+
+    elif persona == 3:
+    if compu == 3:
+        print("Empate, ambos eligieron tijera")
+    elif compu == 2:
+        print("Ganaste, la tijera corta el papel")
+    elif compu == 4:
+        print("Ganaste, la tijera decapita a la lagartija")
+    elif compu == 1:
+        print("Perdiste, la piedra aplasta la tijera")
+    elif compu == 5:
+        print("Perdiste, spock rompe la tijera")
+
+
