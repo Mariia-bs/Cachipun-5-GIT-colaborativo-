@@ -1,3 +1,5 @@
+import random
+
 print("Hola, mi nombre es Compu, y te quiero dar la bienvenida al juego 'Cachipun 5'. Es un juego muy entretenido, más entretenido que el cachipún normal obviamente. Me imagino que ya conoces las reglas, así que partirás tú eligiendo qué vas a sacar entre las 5 opciones disponibles.")
 print("Elige tu jugada: 1=piedra, 2=papel, 3=tijera, 4=lagartija, 5=spock")
 persona = int(input())
@@ -5,8 +7,7 @@ compu = random.randint(1,5)
 print(f"Yo elegí {compu}")
 # 1= piedra, 2=papel, 3=tijera, 4=lagartija, 5=spock
 # cada opción le gana a 2 y pierde contra 2
-print("Ahora sigue tú, veamos quién gana!!")
-print("comencemoss")
+
 if persona == 1:
     if compu == 1:
         print("Empate, ambos eligieron piedra")
@@ -31,7 +32,7 @@ elif persona == 2:
     elif compu == 4:
         print("Perdiste, la lagartija se come el papel")
 
-    elif persona == 3:
+elif persona == 3:
     if compu == 3:
         print("Empate, ambos eligieron tijera")
     elif compu == 2:
