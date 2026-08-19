@@ -5,3 +5,26 @@ compu = random.randint(1,5)
 print(f"Yo elegí {compu}")
 # 1= piedra, 2=papel, 3=tijera, 4=lagartija, 5=spock
 # cada opción le gana a 2 y pierde contra 2
+if persona == 1:
+    if compu == 1:
+        print("Empate, ambos eligieron piedra")
+    elif compu == 3:
+        print("Ganaste, la piedra aplasta a la tijera")
+    elif compu == 4:
+        print("Ganaste, la piedra aplasta a la lagartija")
+    elif compu == 2:
+        print("Perdiste, el papel cubre la piedra")
+    elif compu == 5:
+        print("Perdiste, spock vaporiza la piedra")
+
+elif persona == 2:
+    if compu == 2:
+        print("Empate, ambos eligieron papel")
+    elif compu == 1:
+        print("Ganaste, el papel cubre la piedra")
+    elif compu == 5:
+        print("Ganaste, el papel refuta a spock")
+    elif compu == 3:
+        print("Perdiste, la tijera corta el papel")
+    elif compu == 4:
+        print("Perdiste, la lagartija se come el papel")
