@@ -68,3 +68,6 @@ elif persona == 5:
         print("Perdiste, el papel refuta a spock")
     elif compu == 4:
         print("Perdiste, la lagartija envenena a spock jajaja")
+
+else:
+    print(f"Que torpe {nombre}, te equivocaste!!")
