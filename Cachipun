@@ -46,7 +46,7 @@ elif persona == 2:
 
 elif persona == 4:
     if compu == 3:
-        print("Perdiste, la tijera decapita a la lagartija")
+        print("Perdiste, la tijera decapita a la lagartija jajaja")
     elif compu == 2:
         print("Ganaste, la lagartija se come el papel")
     elif compu == 4:
@@ -54,7 +54,7 @@ elif persona == 4:
     elif compu == 1:
         print("Perdiste, la piedra aplasta a la lagartija")
     elif compu == 5:
-        print("Ganaste, la lagartija envenena a spock")
+        print("Ganaste, la lagartija envenena a spock jajaja")
 
 elif persona == 5:
     if compu == 5:
@@ -66,4 +66,4 @@ elif persona == 5:
     elif compu == 2:
         print("Perdiste, el papel refuta a spock")
     elif compu == 4:
-        print("Perdiste, la lagartija envenena a spock")
+        print("Perdiste, la lagartija envenena a spock jajaja")
